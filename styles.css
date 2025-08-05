@@ -1,0 +1,97 @@
+/* === Selectores de CLASE === */
+.fondo-claro {
+    background: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.encabezado {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Clase común para todas las tarjetas */
+.tarjeta {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+/* === Selectores con ID === */
+#proyecto1 {
+    border-top: 5px solid #ff6600;
+}
+
+#proyecto2 {
+    border-top: 5px solid #0099cc;
+}
+
+#proyecto3 {
+    border-top: 5px solid #33cc33;
+}
+
+/* Imagen dentro de proyectos */
+.proyecto img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Enlaces */
+.proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.proyecto a:hover {
+    color: #ff6600;
+}
+
+/* Pie de página */
+.pie {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+.contacto {
+    margin-top: 10px;
+}
+
+.contacto a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.icono:hover {
+    transform: scale(1.2);
+}
+
